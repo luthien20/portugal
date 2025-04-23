@@ -56,20 +56,20 @@ ul li {
 }
 
 
-.country-name{
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-font-size: 160px; 
-font-weight: bold;
-text-align: center;
-height: 480px;
+.country-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 160px; 
+  font-weight: bold;
+  text-align: center;
+  height: 480px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: transparent; 
+  color: rgb(172, 36, 77); 
   background: no-repeat center;
   background-size: cover;
   background-clip: text;  
