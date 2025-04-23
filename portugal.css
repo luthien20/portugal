@@ -1,0 +1,73 @@
+
+
+  body {
+    
+    color: #333;
+    line-height: 1.6;
+    background-image: url('bg.jpg');
+    background-size: cover  ;
+    background-position: center; 
+    background-repeat: no-repeat;
+  }
+
+  
+ .hero {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 5px #000;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .highlights {
+    margin: 2rem 0;
+  }
+  
+  .highlights h2 {
+    margin-bottom: 1rem;
+    color: #6a4caf;
+ 
+  }
+  
+  .card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    background : transparent
+  }
+  
+  .card img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .card-text {
+    padding: 1rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #6a4caf;
+    color: white;
+    margin-top: 2rem;
+  }
+  
