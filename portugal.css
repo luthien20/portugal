@@ -55,9 +55,7 @@ body {
     margin: 0; /* Ensures no extra margin */
   }
   
- main {
-  
-}
+ 
 .country-name{
   position: absolute;
   top: 50%;
@@ -74,19 +72,19 @@ body {
     color: transparent; /* Make the text transparent */
     background: url('flag.jpg') no-repeat center;
     background-size: cover;
-    -webkit-background-clip: text; /* Clip the background to the text */
+    background-clip: text; /* Clip the background to the text */
     -webkit-text-fill-color: transparent; /* Make the text transparent */
     -webkit-text-stroke: 2px black; /* Add black borders around the letters */
 }
 
   
   .highlights {
-    margin: auto auto;              /* center horizontally */
-  background: rgba(255, 255, 255, 0.7); /* semi-transparent background */
+    margin: auto auto;             
+  background: rgba(255, 255, 255, 0.7); 
   padding: 1rem;
   border-radius: 12px;
-  max-width: 800px;               /* optional: limit width */
-  height: 300px;                  /* or whatever height you need */
+  max-width: 800px;               
+  height: 300px;                  
   display: flex;
   flex-direction: column;
   align-items: center;
